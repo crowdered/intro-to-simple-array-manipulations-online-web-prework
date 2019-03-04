@@ -57,7 +57,7 @@ end
    element = instructors.delete(no_offense_steven)
  end
  
- def using_delete_at(array, integer)
+ def using_delete_at(famous_robots, deleted_robot)
    #famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
    element = array.delete(integer,2)
  end
