@@ -50,3 +50,10 @@ end
    private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
    element = private_colleges_in_newyork.flatten
  end
+ 
+ def using_delete(instructors, no_offense_steven)
+   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+   no_offense_steven = "Steven"
+   element = instructors.delete(no_offense_steven)
+ end
+ 
