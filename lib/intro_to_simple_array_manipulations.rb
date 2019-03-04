@@ -59,5 +59,5 @@ end
  
  def using_delete_at(famous_robots, deleted_robot)
    #famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
-   element = famous_robots.delete(deleted_robot, 2)
+   element = famous_robots.delete(2)
  end
